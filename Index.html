@@ -6,8 +6,93 @@
     <title>Aitana</title>
 </head>
 <body>
+
+    <style>
+
+        body {
+
+            background-image: url("../PROYECTO-Sitio-web-artista-grupo-musical/images/Fondo.png");
+            background-attachment: fixed;
+        }
+
+        div {
+
+            padding-top: 50px;
+            padding-right: 80px;
+            padding-bottom: 2px;
+            padding-left: 80px;
+
+        }
+
+        div.images {
+
+            text-align: center;
+
+        }
+
+        div.escrito {
+        
+            text-align: justify;
+            color:beige;
+            font-style: "Garamond", serif;
+        }
+
+        li {
+
+            padding-left: 32px;
+            text-align: left;
+            color: black;
+
+        }
+
+
+        h1, h2{
+
+            font-style: italic;
+            text-align: center;
+            color: beige;
+
+        }
+
+        table {
+            
+            margin: 0 auto;
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 80%;
+
+        }
+      
+      th {
+            
+            border: 1px solid #ece6e6;
+            text-align: justify,center;
+            height: 38;
+
+        }
+
+      tr {
+
+            background-color: #809ca5;
+            
+        }
+
+        div.reproductor{
+
+            text-align: center;
+
+
+
+        }
+
+
+      
+    </style>
+
     
-    <h1 style="text-align: center;">Biografía</h1>
+    <h1>Biografía</h1>
+
+    <div class="escrito">
 
     <p> Aitana Ocaña Morales, más conocida como Aitana, es una cantante y compositora española, que nació el 27 de junio de 1999.
         Se hizo conocida por participar en la novena temporada de Operación Triunfo, donde obtuvo el segundo puesto del concurso musical, 
@@ -27,37 +112,23 @@
         El tema se convirtió en su segundo sencillo número uno que también ha alcanzado el cuarto disco de platino. El lanzamiento de su 
         primer EP, “Tráiler”, con temas en inglés y español, fue producido el 30 de noviembre de 2018 y alcanzó disco de platino en España.
     </p>
+
+    </div>
     
-    <img src="images/aitanabio.jpeg" alt="Foto Aitana">
+    <div class="images">
 
-    <h1 style="text-align:center">Discografía</h1>
+        <img src="images/aitanabio.jpeg" alt="Foto Aitana">
 
-    <style>
+    </div>
 
-        table {
-            
-            margin: 0 auto;
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 65%;
-            
+    <div>
+        
+        <h1>Discografía</h1>
 
-        }
-      
-      td, th {
-            
-            border: 1px solid #dddddd;
-            text-align: justify,center;
-            padding: 8px;
+    
 
-        }
-
-      tr:nth-child(even) {
-
-            background-color: #dddddd;
-        }
-
-    </style>
+    
+    
 
     <table>
 
@@ -66,6 +137,7 @@
             <th>Título</th>
             <th>Detalles</th>
             <th>Certificaciones</th>
+            <th>Portada disco</th>
 
         </tr>
 
@@ -73,22 +145,26 @@
 
             <th>Tráiler</th>
             <th>
+                
                 <p><li>Lanzamiento: 30 de noviembre de 2018</li></p>
                 <p><li>Discografía Universal Music</li></p>
                 <p><li>Formato: CD, descarga digital</li></p>
                 <p><li>Calificación del disco de Jenesaispop: 6´1/10</li></p>
+                
 
             </th>
-            <th>   
-                <img src="images/BanderaEspaña.png" width="40" height="35">
-                <img src="images/discoPlata.png" width="35" height="35">
+            <th> 
                 
-                <p>
+            <p>
+                    <img src="images/BanderaEspaña.png" width="40" height="35">
+                    <img src="images/discoPlata.png" width="35" height="35">
+            </p>
 
+            <p>
                     <img src="images/BanderaChile.png" width="40" height="35">
                     <img src="images/DiscoOro.png" width="35" height="35">
-
-                </p>
+            </p>
+                
 
             </th>
             <th><img src="images/Trailer.jpeg" width="130" height="110"></th>
@@ -99,7 +175,7 @@
 
             <th>Spoiler</th>
             <th>
-                <p><li>Lanzamiento: 7 de junio de 2019</li></p>
+                <p><li>Lanzamiento: 7 de junio de 2019</li> </p>   
                 <p><li>Discografía Universal Music</li></p>
                 <p><li>Formato: CD, descarga digital</li></p>
                 <p><li>Calificación del disco de Jenesaispop: 6´5/10</li></p>
@@ -107,10 +183,10 @@
             </th>
             <th>
 
-                <p>    
+                   
                     <img src="images/BanderaEspaña.png" width="40" height="35">
                     <img src="images/discoPlata.png" width="35" height="35">
-                </p>
+                
 
             </th>
             <th><img src="images/Spoiler.jpeg" width="130" height="110"></th>
@@ -129,8 +205,12 @@
                 
             </th>
             <th>
+                <p>
+
                 <img src="images/BanderaEspaña.png" width="40" height="35">
                 <img src="images/discoPlata.png" width="35" height="35">
+
+                </p>
 
                 <p>
 
@@ -168,21 +248,33 @@
         </tr>
 
     </table>
+    
+    </div>
+
+    <div>
+        
+        <h1>Giras</h1>
 
     
-    <h1 style="text-align:center">Giras</h1>
+    
 
-    <p>Play Tour</p>
+    
 
-    <p>11 razones tour</p>
+        <h2><p>Play Tour</p></h2>
 
-    <p>11 razones + tour</p>
+        <h2><p>11 razones tour</p></h2>
 
-    <p>Alpha tour</p>
+        <h2><p>11 razones + tour</p></h2>
+
+        <h2><p>Alpha tour</p></h2>
+
+    </div>
+    
 
 
-
-    <h1 style="text-align:center">Redes Sociales</h1>
+    <div>
+    
+    <h1>Redes Sociales</h1>
 
     <a href="https://twitter.com/aitanax" target="_blank">
         
@@ -196,10 +288,14 @@
     
     </a>
     
+    </div>
 
-    
-    
-    
+    <h1>Escucha su nuevo disco Alpha</h1>
+
+    <div class="reproductor">
+        
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7itZH9cqWCweOqCGsjWlLx?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
 
     
 </body>
